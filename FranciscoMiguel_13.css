@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    padding: 2em;
+    background: linear-gradient(to right, rgb(0, 140, 255) 0%, rgba(32, 235, 5, 0.534) 50%, rgb(72, 255, 0) 100%);
+}
+
+section{
+    display: flex;
+    height: 300px;
+}
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: 2s ease;
+}
+section img:hover{
+    width: 300px;
+    opacity: 1;
+    filter: contrast(100%);
+}
+section img:first-child{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+section img:last-child{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
