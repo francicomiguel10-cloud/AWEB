@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{ 
+    font-size: 62.5;
+    scroll-behavior: smooth;
+}
+body{ 
+    font-size: 1.6rem; 
+    height: 300vh;
+}
+h1{
+    text-align: center;
+    padding: 2rem;
+    background-color: rgb(246, 250, 0);
+}
+footer{ 
+    background-color: rgba(17, 211, 236, 0.432);
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    }
+.cabecera{
+    background-image: url(./fotos/markhorizontal.jfif);
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    background-color: rgb(208, 255, 0);
+    color: black;
+    flex: 1;
+    padding: 1rem;
+}
+main{
+   
+    width: 80%;
+    margin: 2rem auto 2rem auto;
+    text-align: center;
+  
+}
+section{
+    background-color: aquamarine;
+    margin-top: 20rem;
+    border-radius: 25px;    
+}
+section h3{
+    background-color: rgb(158, 219, 219);
+    padding: 1rem;
+}
+
+section p{
+    padding: 2rem;
+}
+
+main{
+    padding-bottom: 15rem;
+}

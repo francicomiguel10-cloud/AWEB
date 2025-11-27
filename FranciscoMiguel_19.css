@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{ font-size: 62.5%; scroll-behavior: smooth;}
+
+h1{
+    margin: 2rem auto 2rem auto;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.texto-azul {color:rgb(55, 124, 252);}
+
+body{
+    background-image: url(/fotos/fondo.jfif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 250vh;
+    font-size: 1.5rem;
+    text-shadow: white 2px 2px 2px;
+}
+
+.cabecera{
+    background-image: url(./fotos/cabecera.jfif);
+    height: 25rem;
+    background-position: center center;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 2rem auto auto auto;
+    border-top: 1px solid white;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 1.5rem;
+    flex-grow: 1;
+    font-weight: 900;
+    transition: 2s ease;
+}
+
+nav a:hover{
+    transform: scale(1.2) translate(-10px,10px) rotate(5deg);
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.527);
+}
+
+section{
+    width: 70%;
+    margin: 2.5rem auto;
+    
+}
+
+h3{
+    text-align: center;
+    padding: 1rem;
+}
+
+.ejemplos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+}
+
+.ejemplos img{ 
+    width: 100%; 
+    transition: 1.2s ease;
+    box-shadow: rgb(138, 138, 138) 0px 5px 20px;
+    border-radius: 1rem;
+}
+.ejemplos img:hover{
+    transform: scale(1.2) translate(-10px,10px) rotate(5deg);
+
+}
+
+p{
+    text-shadow: none;
+    background-color: rgba(172, 153, 140, 0.429);
+    padding: 2rem;
+    text-align: justify;
+}
+
+.experiencias{
+    display: flex;
+    justify-content: space-between;
+}
+
+.experiencias p{
+    flex: 1;
+    text-align: center;
+    border-radius: 20px;
+    margin: 1rem;
+    transition: 2s ease;
+}
+
+.experiencias p:hover{
+    transform: scale(0.9);
+}
+
+/*Tamaño para moviles*/
+@media (width<500px){
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .experiencias{
+        flex-direction: column;
+    }
+    .ejemplos{
+        grid-template-columns: auto;
+    }
+}
+/* si el tamaño es intermedio(tablets)*/
+@media ( (width<780px) and (width>500px)){
+    .ejemplos{
+        grid-template-columns: auto auto;
+    }
+}

@@ -1,0 +1,23 @@
+
+table{
+    caption-side: bottom;
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+    background: radial-gradient(45deg, white, blue,);
+}
+td,th{
+    border: 2px solid red;
+    padding: 05rem 1rem 0.5rem 1rem;
+}
+
+h1,td, th{
+    text-align: center;
+}
+table tr:first-child{
+    background-image: linear-gradient(to right, blue, yellow, green);
+    color: white;
+}
+td img{
+    width: 50%;
+}

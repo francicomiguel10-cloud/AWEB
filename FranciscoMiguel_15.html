@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./FranciscoMiguel_15.css">
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="enviar.php" method="post" target="_blank">
+        <fieldset class="datos_iniciales">
+            <label for="nombre">Nombre: </label>
+             <input type="text" id="fname" name="" value="">
+            <label for="apellidos">Apellidos</label>
+             <input type="text" id="lname" name="lname" value="">    
+        </fieldset>
+        <fieldset class="inputs">
+            <legend>Informacion y datos de contacto</legend>
+            <input type="email" placeholder="Correo electronico" name="email" >
+            <input type="password" id="pwd" name="pwd" placeholder="Contraseña">
+            <input type="tel" id="tel" name="tel"placeholder="Nº de Telefono">
+            <input type="date" id="fecha" name="fecha">
+            <input type="range"  id="a" name="a" value="50">
+            <h3>Haz clik en las dos casillas si es urgente</h3>
+            <input type="radio"   id="radio" name="radio"> 
+            <input type="checkbox"  id="checkbox" name="checkbox">
+            <input type="color" id="favcolor" name="favcolor">
+            <input type="file" id="miFichero" name="miFichero">
+            <input type="number" mmin="0" max="100" placeholder="Numero de archivos que vas a mandar">
+        </fieldset>
+        <fieldset class="otros">
+            <legend>Cuentame un poco de ti</legend>
+            <textarea placeholder="Dime algo" rows="10" cols="30" >
+            </textarea>
+            <select name="pais" id="paises">
+                <option value="Selecciona pais">Selecciona pais</option>
+                <option value="spain">España</option>
+                <option value="france">Europa(Especificar pais)</option>
+                <option value="brasil">Sur America(Especificar pais)</option>  
+            </select>
+            <select name="sexo" id="sexo">
+                <option value="Selecciona sexo">Selecciona sexo</option>
+                <option value="Hombre">Hombre</option>
+                <option value="Mujer">Mujer</option>
+                <option value="Prefiero no decirlo">Prefiero no decirlo</option>  
+            </select>
+
+        </fieldset>
+        <fieldset>
+            <button href="./app.html"> Es un super boton</button>
+            <input type="submit" value="Dame dame (enviar)">
+        </fieldset>
+    </form>
+</body>
+</html>

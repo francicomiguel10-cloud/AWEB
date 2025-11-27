@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+header,footer{
+    background-color: rgb(46, 221, 23);
+    padding: 20px;
+    opacity: 0.7;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+h1{
+    text-align: center;
+}
+#video{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+}

@@ -1,0 +1,56 @@
+/*Menus Horizontales y Verticales
+Miguel Angel Molina
+22 de Octubre 2025*/
+
+*{
+    box-sizing:border-box
+    margin 0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+.menuFlex{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto 0 auto left;
+    
+    
+}
+
+.menuFlex a{
+    text-decoration: none;
+    background-color: beige;
+    color: black;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+
+.menuFlex a:hover{
+    background-color: rgb(213, 171, 171);
+}
+
+.menuGrind{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.menuGrind a{
+    text-decoration: none;
+    background-color: beige;
+    color: black;
+    padding: 20px;
+}
+
+.menuGrind a:hover{
+    background-color: rgb(213, 171, 171);
+}
+
+
+

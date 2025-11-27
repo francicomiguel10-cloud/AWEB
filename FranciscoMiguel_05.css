@@ -1,0 +1,30 @@
+body{
+    color: white;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+div{
+    width: 200px;
+    height: 100px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 40px;
+}
+#CajaNEGRA{
+    background-color: black;
+    float: left;
+}
+#CajaAZUL{
+    background-color: blue;
+    float: right;
+}
+#CajaVERDE{
+    background-color: green;
+    float: left;
+}
+#CajaROJA{
+    background-color: red;
+    float: right;
+}

@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1{
+    margin: 25px auto;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aqua;
+    text-shadow: black 2px 2px 5px;
+}
+
+.pcej{
+    background-color: red;
+    width: 80%;
+    margin: auto;
+    border: 5px dotted;
+    padding: 20px;
+    /** el border hace que la esquina izquierda de arriba se redonde **/
+    border-top-left-radius: 25px;
+}
+
+.sist{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-image: url(/fotos/windows11.jfif);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 5px;
+    padding-left: 30px;
+    margin-bottom: 9px;
+}
+.rtx{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-image: url(/fotos/rtx.webp);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 5px;
+    padding-left: 30px;
+    margin-bottom: 9px;
+}
+.amd{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-image: url(/fotos/brand_AMD7-5800X.webp);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 5px;
+    padding-left: 30px;
+    margin-bottom: 9px;
+}
+.ram{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-image: url(/fotos/ramsi.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 5px;
+    padding-left: 30px;
+    margin-bottom: 9px;
+}
+.disc{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-image: url(/fotos/disc.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 5px;
+    padding-left: 30px;
+    margin-bottom: 9px;
+}
+.fuente{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-image: url(/fotos/fuente.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 5px;
+    padding-left: 30px;
+    margin-bottom: 9px;
+}
+.placa{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-image: url(/fotos/placa.jfif);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 5px;
+    padding-left: 30px;
+    margin-bottom: 9px;
+}
+.refri{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-image: url(/fotos/refri.jfif);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 5px;
+    padding-left: 30px;
+    margin-bottom: 9px;
+}
+.caja{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-image: url(/fotos/caja.jfif);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 5px;
+    padding-left: 30px;
+    margin-bottom: 9px;
+}
+.precio{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-image: url(/fotos/precio.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 5px;
+    padding-left: 30px;
+    margin-bottom: 9px;
+}
+.indice{
+    background-color: green;
+    width: 80%;
+    margin: auto;
+    border: 5px dotted;
+    padding: 20px;
+    border-top-right-radius: 25px;}
+.ol1{
+    list-style-type: lower-latin;
+}
+.ol2{
+    list-style-type: lower-latin;
+}
+.def{
+    background-color: blue;
+    width: 80%;
+    margin: auto;
+    border: 5px dotted;
+    padding: 20px;
+    border-top-left-radius: 25px;}

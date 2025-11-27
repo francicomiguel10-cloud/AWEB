@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <style>
+        section{
+            background-color: blueviolet;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+        }
+        section div{padding: 2rem;}
+    </style>
+</head>
+<body>
+    <h1>Ejemplo de DOM</h1>
+    <section>
+        <div id="azul" onclick="Azul()">Azul</div>
+        <div id="amarillo" onclick="Amarillo()">Amarillo</div>
+        <div id="rojo" onclick="Rojo()">Rojo</div>
+    </section>
+    <script>
+        var activar_azul = false;
+        var activar_amarillo = false;
+        var activar_rojo = false
+        function Azul(){
+            if(!activar_azul){
+                var caja = document.getElementById("azul");
+                caja.style.backgroundColor = "blue";
+                activar_azul=true;
+            }
+            else{
+                var caja = document.getElementById("azul");
+                caja.style.backgroundColor = "blueviolet";
+                activar_azul=false;
+            }
+        }
+        function Amarillo(){
+            if(!activar_amarillo){
+                var caja = document.getElementById("amarillo");
+                caja.style.backgroundColor = "yellow";
+                activar_amarillo=true;
+            }
+            else{
+                var caja = document.getElementById("amarillo");
+                caja.style.backgroundColor = "blueviolet";
+                activar_amarillo=false;
+            }
+        } 
+        function Rojo(){
+            if(!activar_rojo){
+                var caja = document.getElementById("rojo");
+                caja.style.backgroundColor = "red";
+                activar_rojo=true;
+            }
+            else{
+                var caja = document.getElementById("rojo");
+                caja.style.backgroundColor = "blueviolet";
+                activar_rojo=false;
+            }
+        }   
+    </script>
+</body>
+</html>
